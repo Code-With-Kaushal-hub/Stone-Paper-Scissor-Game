@@ -7,8 +7,8 @@ const comp = document.querySelector("#comp");
 const user = document.querySelector("#user");
 
 /*  SOUND (FIXED PATH: use / not \) */
-const winSound = new Audio("image/floraphonic-violin-win-5-185128.mp3");
-const loseSound = new Audio("image/floraphonic-violin-lose-1-175615.mp3");
+const winSound = new Audio("floraphonic-violin-win-5-185128.mp3");
+const loseSound = new Audio("floraphonic-violin-lose-1-175615.mp3");
 
 /* UNLOCK AUDIO (browser restriction fix) */
 document.body.addEventListener("click", () => {
